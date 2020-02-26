@@ -1,0 +1,88 @@
+.header .hashtag__header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main .hashtag__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.hashtag__header-title {
+  font-size: 17px;
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+
+.hashtag__header-links {
+  color: red;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.hashtag__header-links i {
+  color: black;
+  opacity: 0.4;
+}
+
+.hashtag__header .hashtag__column:last-child {
+  padding: 7px 5px;
+  background-color: #75bace;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.hashtag__contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.hashtag__contents .hashtag__content {
+  border-top: 0.1px solid rgb(185, 185, 185);
+  font-size: 17px;
+  padding: 20px 0px;
+}
+
+.hashtag__ads {
+  width: 100%;
+  height: 100%;
+}
+
+.hashtag__ads {
+  position: relative;
+}
+
+.hashtag__ads img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.hastag__ads-description {
+  width: 100%;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ads-description__column {
+  padding: 5px 10px;
+  background-color: rgb(185, 185, 185);
+  border-radius: 15px;
+}
+
+.ads-description-title {
+  color: white;
+  font-weight: 700;
+}
+
+.ads-description-more {
+  color: white;
+  font-weight: 700;
+}

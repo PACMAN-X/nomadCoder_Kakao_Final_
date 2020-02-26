@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/f55b6e3e3e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">1:47</span>
+      </div>
+      <div class="status-bar__column">
+        <span class="status-bar__icon"
+          ><i class="fa fa-signal" aria-hidden="true"></i
+        ></span>
+        <span class="status-bar__icon"
+          ><i class="fa fa-wifi" aria-hidden="true"></i
+        ></span>
+        <span class="status-bar__icon"
+          ><i class="fas fa-battery-full    "></i
+        ></span>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__column">
+        <h1 class="header__title">채팅</h1>
+      </div>
+      <div class="header__column">
+        <span class="header__icon">
+          <a href="">
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span class="header__icon">
+          <a href="">
+            <i class="far fa-comment"></i>
+          </a>
+        </span>
+        <span class="header__icon">
+          <a href="">
+            <i class="fa fa-music" aria-hidden="true"></i>
+          </a>
+        </span>
+        <span class="header__icon">
+          <a href="">
+            <i class="fa fa-cog" aria-hidden="true"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+    <main class="chat">
+      <ul class="friends__list">
+        <li class="friends__friend-row">
+          <a href="./chatting.html">
+            <div class="friends__friend">
+              <div class="friend__column">
+                <div class="friends__friend-contents">
+                  <img
+                    class="friend__image-size-lg"
+                    src="./src/images/friend2.png"
+                    alt=""
+                  />
+
+                  <div class="friend__content">
+                    <span class="friend__content-name">강동희</span>
+                    <span class="friend__content-status chat__preview"
+                      >야 오늘 뭐하냐</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="friend__time_stamp">2020. 02. 21</span>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li class="friends__friend-row">
+          <div class="friends__friend">
+            <div class="friend__column">
+              <div class="friends__friend-contents">
+                <div class="friends__participants-images-4">
+                  <img
+                    class="friend__image-size-xs"
+                    src="./src/images/friend1.png"
+                    alt=""
+                  />
+                  <img
+                    class="friend__image-size-xs"
+                    src="./src/images/friend2.png"
+                    alt=""
+                  />
+                  <img
+                    class="friend__image-size-xs"
+                    src="./src/images/friend3.png"
+                    alt=""
+                  />
+                  <img
+                    class="friend__image-size-xs"
+                    src="./src/images/profile.png"
+                    alt=""
+                  />
+                </div>
+                <div class="friend__content">
+                  <span class="friend__content-name"
+                    >강동희, 김마이클, 김철수, pacman</span
+                  >
+                  <span class="friend__content-status chat__preview"
+                    >숙제 좀 해라 빨리</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="friend__column">
+              <span class="friend__time_stamp">2020. 02. 21</span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend-row">
+          <div class="friends__friend">
+            <div class="friend__column">
+              <div class="friends__friend-contents">
+                <div class="friends__participants-images-2">
+                  <img
+                    class="friend__image-size-s"
+                    src="./src/images/friend1.png"
+                    alt=""
+                  />
+                  <img
+                    class="friend__image-size-s"
+                    src="./src/images/friend2.png"
+                    alt=""
+                  />
+                </div>
+                <div class="friend__content">
+                  <span class="friend__content-name"
+                    >강동희, 김마이클, pacman</span
+                  >
+                  <span class="friend__content-status chat__preview"
+                    >잠을 자고 싶다.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="friend__column">
+              <span class="friend__time_stamp">2020. 02. 21</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="./friends.html" class="nav__list-link">
+            <i class="far fa-user" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="./index.html" class="nav__list-link">
+            <div class="nav__badge">10</div>
+            <i class="fas fa-comment" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="./hashtag.html" class="nav__list-link">
+            <img class="icon-defualt" src="./src/icons/hashtag.png" alt="" />
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="./more.html" class="nav__list-link">
+            <img class="icon-defualt" src="./src/icons/dots.png" alt="" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen smaller</span>
+    </div>
+  </body>
+</html>

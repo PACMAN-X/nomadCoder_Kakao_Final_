@@ -1,0 +1,81 @@
+.friends__my-btn-text {
+  padding: 3px 8px;
+  border: 0.5px solid #979797;
+  font-size: 18px;
+  color: #2f353e;
+  border-radius: 15px;
+  margin-right: 3px;
+}
+
+.more .friends__header .friends__column:last-child {
+  position: relative;
+}
+.friends__my-btn {
+  padding: 3px 5px;
+  border: 0.5px solid #979797;
+  font-size: 18px;
+  border-radius: 14px;
+}
+
+.more .nav__badge {
+  padding: 5px 6px;
+  position: absolute;
+  background-color: #ff6128;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 14px;
+  left: 70px;
+  bottom: 13px;
+}
+
+.more__pay {
+  background-color: #e4e4e4;
+  border-radius: 5px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay__column .pay__amount {
+  background-color: #f5f4f4;
+  display: flex;
+  padding: 13px 20px;
+  border: 0.2px solid #979797;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.pay__amount .pay {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.pay__column:last-child {
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  margin-right: 15px;
+}
+.pay__column:last-child div:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.4;
+}
+.more .more__btn-list {
+  margin-top: 30px;
+  margin: 30px 15px 0px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.more__btn-list .more__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.more__btn .more__btn-title {
+  font-size: 14px;
+  margin-top: 15px;
+}

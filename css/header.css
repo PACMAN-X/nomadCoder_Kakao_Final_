@@ -1,0 +1,41 @@
+.header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header__title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header__unread_text {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.header__header-column .header__title {
+  margin-left: 10px;
+}
+
+.header__header-column .header__icon:last-child {
+  margin-left: 20px;
+}
+
+.header__icon {
+  font-size: 25px;
+}
+
+.header__column:last-child .header__icon:not(:last-child) {
+  margin-right: 30px;
+}
+
+.chat {
+  padding-top: 15px;
+}
